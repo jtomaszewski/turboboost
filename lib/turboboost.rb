@@ -10,6 +10,6 @@ module Turboboost
   end
 end
 
-ActiveSupport.on_load(:action_controller) do
-  include Turboboost::Controller
-end
+# ActiveSupport.on_load(:action_controller) do
+#   include Turboboost::Controller
+# end
